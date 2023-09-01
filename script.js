@@ -15,7 +15,7 @@ function fetchData() {
 function displayData(posts) {
     const postList = document.getElementById('post-list');
 
-    // Loop through the posts and create list items
+
     posts.forEach(post => {
         const listItem = document.createElement('li');
         listItem.textContent = post.title;
